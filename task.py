@@ -7,4 +7,3 @@ def firstrun():
 
 def circleArea(radius):
     return radius * radius * 3.14159
-    
