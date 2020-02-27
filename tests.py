@@ -22,6 +22,10 @@ class TestCase(unittest.TestCase):
         expected = [1, 9]
         self.assertListEqual(expected, task.firstLast([1, 2, 3, 4, 5, 6, 7, 8, 9]))
 
+    def testDateDifference(self):
+        expected = 10
+        self.assertEqual(expected, task.dateDifference("2020-1-1", "2020-1-11"))
+
 
 if __name__ == '__main__':
     unittest.main()
